@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Facultad\Labo4\tp1\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! D:\Facultad\Labo4\tp1juegos\src\polyfills.ts */"hN/g");
 
 
 /***/ }),
