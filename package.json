@@ -2,7 +2,7 @@
   "name": "tp1",
   "version": "0.0.0",
   "scripts": {
-    "postinstall": "ng build --output-path tp1 --aot --prod",
+    "postinstall": "ng build --output-path tp1juegos --aot --prod",
 
     "ng": "ng",
     "start": "node server.js",
