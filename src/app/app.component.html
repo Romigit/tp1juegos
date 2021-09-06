@@ -1,0 +1,43 @@
+<app-nav></app-nav>
+
+
+
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Sala de juegos</span>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+
+<main>
+  <mat-card> 
+    TP N° 1
+    <form action="" >
+
+      <img width="120" alt="Juegos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6LVZm_7mEpyQaq25k1beMnEhn95BX0_cICQ&usqp=CAU">
+
+      <mat-form-field>
+        <input type="text" matInput placeholder="Title" #title>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-select placeholder="Album Id" #albumId>
+          <mat-option *ngFor="let id of albumsId" value="id">
+            {{id}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input type="text" matInput placeholder="URL" #url>
+      </mat-form-field>
+      
+      <button mat-button mat-flat-button color="primary" style="display:block; width:100%;">
+        play
+      </button>
+    </form>
+  </mat-card>
+
+  <app-pictures></app-pictures>
+
+</main>
