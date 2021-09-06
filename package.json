@@ -1,5 +1,5 @@
 {
-  "name": "tp1",
+  "name": "tp1juegos",
   "version": "0.0.0",
   "scripts": {
     "postinstall": "ng build --output-path tp1juegos --aot --prod",
